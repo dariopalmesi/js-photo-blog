@@ -8,3 +8,6 @@ header {
         padding-bottom: 2rem;
     }
 }
+body{
+    background-image: url(./img/cork.png);
+}
