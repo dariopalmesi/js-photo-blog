@@ -1,0 +1,10 @@
+header {
+    background-image: url(./img/wall.png);
+    color: black;
+    font-family: "Edu TAS Beginner", cursive;
+    h1{
+        font-size: 100px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
