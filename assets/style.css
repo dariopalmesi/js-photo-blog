@@ -40,3 +40,7 @@ img{
     margin-left: 0.45rem;
     margin-top: 1rem;
 }
+
+ p {
+    text-transform: capitalize;
+ }
