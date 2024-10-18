@@ -18,6 +18,7 @@ img{
 .card-text {
     font-family: "Edu TAS Beginner", cursive;
     position: relative;
+    font-size: 20px;
 }
  .pin{
     max-width: 10%;
