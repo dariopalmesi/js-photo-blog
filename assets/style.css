@@ -1,7 +1,7 @@
 header {
     background-image: url(./img/wall.png);
     color: black;
-    font-family: "Edu TAS Beginner", cursive;
+    font-family: "Sometype Mono", monospace;
     h1{
         font-size: 100px;
         padding-top: 2rem;
@@ -12,5 +12,20 @@ body{
     background-image: url(./img/cork.png);
 }
 img{
-    max-width: 100%;
+    max-width: 95%;
+}
+
+.card-text {
+    font-family: "Edu TAS Beginner", cursive;
+    position: relative;
+}
+ .pin{
+    max-width: 10%;
+    position: absolute;
+    right: 47%;
+    top: -2%;
+} 
+.card-img-top {
+    margin-left: 0.45rem;
+    margin-top: 1rem;
 }
