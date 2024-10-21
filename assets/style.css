@@ -76,20 +76,15 @@ p {
 
 .container {
     .img-no {
-        position: absolute;
-        right: 50%;
-        display: non;
+        display: none;
     }
     button {
-        display: non;
-        position: absolute;
-        right: 40%;
+        display: none;
     }
 }
 
 .container:hover {
     .img-no {
-        position: absolute;
         display: block;
     }
     button {
