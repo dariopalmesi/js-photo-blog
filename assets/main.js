@@ -14,10 +14,10 @@ axios.get('https:jsonplaceholder.typicode.com/photos?_limit=6')
             console.log(post);
             const { url, title } = post
             let markup = `
-               <div class="card col-lg-4 col-sm-12 col-md-6 mt-5">
+               <div class=" card col-lg-4 col-sm-12 col-md-6 mt-5">
                        <img src="${url}" class="card-img-top border" alt="">
                        <img src="./assets/img/pin.svg" class="pin" alt="">
-                       <div class="card-body">
+                       <div class="card-body ">
                            <p class="card-text">
                                ${title}
                            </p>

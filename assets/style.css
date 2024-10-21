@@ -2,25 +2,33 @@ header {
     background-image: url(./img/wall.png);
     color: black;
     font-family: "Sometype Mono", monospace;
-    h1{
-        font-size: 100px;
+
+    h1 {
+        
         padding-top: 2rem;
         padding-bottom: 2rem;
+        font-style: oblique;
+        
     }
 }
-body{
+
+body {
     background-image: url(./img/cork.png);
 }
-img{
+
+img {
     max-width: 95%;
 }
-.card{
+
+.card {
     transition: 1s
 }
+
 .card:hover {
     rotate: 20deg;
     scale: 1.2;
-    .pin{
+
+    .pin {
         display: none;
     }
 }
@@ -30,17 +38,33 @@ img{
     position: relative;
     font-size: 20px;
 }
- .pin{
+
+.pin {
     max-width: 10%;
     position: absolute;
     right: 47%;
     top: -2%;
-} 
+}
+
 .card-img-top {
     margin-left: 0.45rem;
     margin-top: 1rem;
 }
 
- p {
+p {
     text-transform: capitalize;
- }
+}
+
+#overlay:hover {
+    position: fixed; /* Sit on top of the page content */
+    display: non; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
