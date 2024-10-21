@@ -6,8 +6,12 @@ axios.get("https://jsonplaceholder.typicode.com/photos?_limit=6")
         console.log(response);
 
 
-
+        const buttonEl = document.getAnimations('overlay')
         const postsEl = document.getElementById('posts')
+        postsEl.addEventListener('click', function () {
+            buttonEl
+            
+        })
 
         posts.forEach(post => {
             console.log(post);
